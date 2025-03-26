@@ -1,10 +1,4 @@
-
-## Am Emmanuel TUYISENGE! 
-
-As a Computer and Software Engineering student with a focus on IoT and Embedded Systems, I possess strong programming skills in HTML, CSS, JavaScript, PHP,Flutter(Dart) and SQL. 
-I have completed certifications in Introduction to Internet of Things (IoT) and IT Essentials. Although I don't have direct work experience, I have been actively involved in IoT projects, and I am eager to contribute my skills to the field.
- 
- ## Project:  🌊SMART SWIMMING POOL
+## Project:  🌊SMART SWIMMING POOL
 
 **Swimming pools**  are a popular source of recreation, but ensuring the safety of swimmers and maintaining optimal water quality are crucial concerns.
 This project introduces the IoT-based Smart Swimming Pool Monitoring System, designed to enhance safety and water quality management. Situated in Rwanda,
