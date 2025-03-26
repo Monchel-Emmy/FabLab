@@ -155,8 +155,8 @@ OneWire oneWire(SENSOR_PIN);
 DallasTemperature tempSensor(&oneWire);
 
 // WhatsApp configuration
-String phoneNumber = "+250780904149";
-String apiKey = "6737250";
+String phoneNumber = "+250780904149";  // replace yours
+String apiKey = "67319997250"; // replace yours
 
 // Function to read pH value
 float readPH() {
@@ -199,7 +199,7 @@ void onDataRecv(uint8_t *mac, uint8_t *incomingDataBytes, uint8_t len) {
 ESP8266WiFiMulti WiFiMulti;
 
 // Define the MAC address of the sender ESP8266 module (Wearable Device)
-uint8_t senderMac[] = {0x4C, 0x11, 0xAE, 0x06, 0xD8, 0x9E};
+uint8_t senderMac[] = {0x4C, 0x11, 0xAE, 0x06, 0xD8, 0x9E};  // replace yours
 
 typedef struct struct_message {
     char message[32];
@@ -223,7 +223,7 @@ DallasTemperature tempSensor(&oneWire);
 
 // WhatsApp configuration
 String phoneNumber = "+250780904149";
-String apiKey = "6737250";
+String apiKey = "67319997250";
 
 // Function to read pH value
 float readPH() {
@@ -271,7 +271,7 @@ void onDataRecv(uint8_t *mac, uint8_t *incomingDataBytes, uint8_t len) {
 void sendDataToThingSpeak(float ph_value) {
     WiFiClient client;
     HTTPClient http;
-    if (http.begin(client, "http://api.thingspeak.com/update?api_key=OCJK240V34KU6H7Z&field1=" + String(ph_value))) {
+    if (http.begin(client, "http://api.thingspeak.com/update?api_key=OCJK240V3191119994KU6H7Z&field1=" + String(ph_value))) {
         Serial.print("[HTTP] GET...\n");
         int httpCode = http.GET();
         if (httpCode > 0) {
